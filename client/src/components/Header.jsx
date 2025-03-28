@@ -29,7 +29,7 @@ const Header = () => {
           <a href="/contact" className="hover:text-gray-700 hover:underline">Contact Us</a>
           <a href="/cart"><ShoppingCart size={24} /></a>
           <button onClick={handleLogout} className="text-gray-700 hover:text-red-600">
-            <LogOut className="w-5 h-5" />
+            <LogOut className="w-5 h-5" />LogOut
           </button>
         </nav>
 
